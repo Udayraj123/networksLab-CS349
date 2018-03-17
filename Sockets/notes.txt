@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/10114277/accepting-both-tcp-and-udp-connections:
+	Note: UDP does not have connections, so you don't have a 'listener' socket. For TCP, you open a listener socket, on which connections can be accepted. You can use select() to watch the 'listen' socket.
+https://www.quora.com/Computer-Networking-How-do-I-write-a-server-program-using-both-TCP-and-UDP-sockets-in-c
+	UDP comes into play when the server needs to send some information to ALL clients, as TCP does not support broadcast messages. 
+
+htonl is used while sending to network
+ntohl when receiving
+
+unsigned long long int strtoull(const char* str, char** endPtr, int base);
+	strtoull is endian safe for numbers smaller than ULONG_MAX (32 bits machines!)
+	endPtr is pointer to character pointer. On success it points to first character after number otherwise points to NULL.
+
+Linux (Intel) is LittleEndian with encoding UTF8
+Linux (zSeries) is BigEndian with encoding UTF8
+	
+
+

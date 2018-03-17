@@ -59,7 +59,7 @@ main()
 	memset(buf,'\0', MAX_BUF_TCP*sizeof(char));
 	recv(sockfd, buf, MAX_BUF_TCP, 0);
 	printf("Receieved: %s\n", buf);
-	int received_port_number = strtoull(buf, NULL, 10);
+	int received_port_number = strtoull(buf, NULL, 10);// 10 is the base of string
 	printf("Receieved port: %d\n", received_port_number);
 
 	
