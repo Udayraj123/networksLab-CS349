@@ -1,0 +1,238 @@
+
+Appending ping results from Wed Jan 31 19:00:34 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=208 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=243 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=439 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=156 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19037ms
+rtt min/avg/max/mdev = 150.116/174.888/439.206/66.544 ms
+
+Appending ping results from Wed Jan 31 19:30:27 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=145 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=154 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=237 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=133 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=141 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=434 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=147 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=354 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=142 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=119 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=126 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=134 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=144 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 119.179/173.331/434.046/77.965 ms
+
+Appending ping results from Wed Jan 31 21:00:34 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=216 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=188 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=394 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=154 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=172 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=415 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=172 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=192 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=201 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=147 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=144 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=149 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19026ms
+rtt min/avg/max/mdev = 144.484/189.217/415.717/76.963 ms
+
+Appending ping results from Wed Jan 31 21:30:33 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=182 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=147 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=145 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=150 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19036ms
+rtt min/avg/max/mdev = 145.694/151.948/182.095/7.343 ms
+
+Appending ping results from Wed Jan 31 22:00:29 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=436 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=140 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=299 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=147 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=158 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=158 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=155 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=155 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=156 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=436 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=155 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=154 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=159 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19028ms
+rtt min/avg/max/mdev = 140.959/192.066/436.353/89.891 ms
+
+Appending ping results from Wed Jan 31 22:30:29 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=156 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=125 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=158 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=160 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=162 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=156 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=158 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=148 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=161 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 125.232/154.334/162.766/8.335 ms
+
+Appending ping results from Wed Jan 31 23:00:27 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=164 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=136 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=156 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=212 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=138 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=184 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=192 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=359 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=156 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=170 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=157 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=250 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 136.109/176.297/359.851/49.300 ms
+
+Appending ping results from Wed Jan 31 23:30:37 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=265 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=139 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=242 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=147 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=369 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=159 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=144 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=155 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=135 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=266 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=151 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19035ms
+rtt min/avg/max/mdev = 135.230/178.003/369.248/60.431 ms
+
+Appending ping results from Thu Feb  1 00:00:28 IST 2018
+PING techfest.org (103.50.163.52) 56(84) bytes of data.
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=1 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=2 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=3 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=4 ttl=56 time=153 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=5 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=6 ttl=56 time=401 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=7 ttl=56 time=149 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=8 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=9 ttl=56 time=152 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=10 ttl=56 time=445 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=11 ttl=56 time=239 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=12 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=13 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=14 ttl=56 time=146 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=15 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=16 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=17 ttl=56 time=150 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=18 ttl=56 time=267 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=19 ttl=56 time=151 ms
+64 bytes from careerlinked.co (103.50.163.52): icmp_seq=20 ttl=56 time=154 ms
+
+--- techfest.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 146.195/188.424/445.751/84.661 ms

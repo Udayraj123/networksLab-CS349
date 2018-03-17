@@ -1,0 +1,215 @@
+
+Appending ping results from Wed Jan 31 19:02:14 IST 2018
+PING steampowered.com (184.31.212.11) 56(84) bytes of data.
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=1 ttl=59 time=93.0 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=2 ttl=59 time=92.9 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=3 ttl=59 time=92.6 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=4 ttl=59 time=93.6 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=5 ttl=59 time=92.7 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=6 ttl=59 time=92.8 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=7 ttl=59 time=291 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=8 ttl=59 time=93.0 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=9 ttl=59 time=399 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=10 ttl=59 time=92.4 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=11 ttl=59 time=92.4 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=12 ttl=59 time=92.5 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=13 ttl=59 time=92.3 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=14 ttl=59 time=92.3 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=15 ttl=59 time=92.0 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=16 ttl=59 time=92.0 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=17 ttl=59 time=93.0 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=18 ttl=59 time=97.9 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=19 ttl=59 time=93.7 ms
+64 bytes from a184-31-212-11.deploy.static.akamaitechnologies.com (184.31.212.11): icmp_seq=20 ttl=59 time=93.7 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19030ms
+rtt min/avg/max/mdev = 92.016/118.320/399.080/77.589 ms
+
+Appending ping results from Wed Jan 31 19:32:11 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=145 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=160 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=142 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=374 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=204 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=159 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=7 ttl=58 time=139 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=113 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=9 ttl=58 time=246 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=139 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=115 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=117 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=165 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=14 ttl=58 time=152 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=339 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=192 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=150 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=349 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19024ms
+rtt min/avg/max/mdev = 113.737/183.686/374.576/78.329 ms
+
+Appending ping results from Wed Jan 31 21:02:16 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=170 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=122 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=120 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=116 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=7 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=119 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=9 ttl=58 time=119 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=124 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=188 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=14 ttl=58 time=538 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=123 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=733 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=422 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=120 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=115 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 115.869/193.220/733.230/164.715 ms
+
+Appending ping results from Wed Jan 31 21:32:12 IST 2018
+PING steampowered.com (23.35.12.90) 56(84) bytes of data.
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=1 ttl=60 time=89.1 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=2 ttl=60 time=100 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=3 ttl=60 time=90.6 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=4 ttl=60 time=91.2 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=5 ttl=60 time=90.5 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=6 ttl=60 time=90.4 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=7 ttl=60 time=89.4 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=8 ttl=60 time=92.4 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=9 ttl=60 time=91.1 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=10 ttl=60 time=88.9 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=11 ttl=60 time=89.8 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=12 ttl=60 time=89.2 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=13 ttl=60 time=89.2 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=14 ttl=60 time=91.0 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=15 ttl=60 time=91.1 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=16 ttl=60 time=90.2 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=17 ttl=60 time=89.8 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=18 ttl=60 time=90.6 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=19 ttl=60 time=90.0 ms
+64 bytes from a23-35-12-90.deploy.static.akamaitechnologies.com (23.35.12.90): icmp_seq=20 ttl=60 time=89.2 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 88.962/90.755/100.417/2.416 ms
+
+Appending ping results from Wed Jan 31 22:02:19 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=122 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=126 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=125 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=7 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=323 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=9 ttl=58 time=127 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=127 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=127 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=127 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=14 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=124 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=117 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=116 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=129 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19027ms
+rtt min/avg/max/mdev = 116.682/136.953/323.736/43.098 ms
+
+Appending ping results from Wed Jan 31 22:32:11 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=125 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=143 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=120 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=127 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=7 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=9 ttl=58 time=125 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=126 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=118 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=125 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=14 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=126 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=125 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19011ms
+rtt min/avg/max/mdev = 118.688/128.393/143.728/5.414 ms
+
+Appending ping results from Wed Jan 31 23:02:14 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=220 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=147 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=125 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=155 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=119 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=7 ttl=58 time=182 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=134 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=114 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=113 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=205 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=130 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=135 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=140 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=174 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 19050ms
+rtt min/avg/max/mdev = 113.220/145.537/220.810/29.986 ms
+
+Appending ping results from Wed Jan 31 23:32:16 IST 2018
+PING steampowered.com (104.122.2.232) 56(84) bytes of data.
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=1 ttl=58 time=136 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=2 ttl=58 time=124 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=3 ttl=58 time=132 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=4 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=5 ttl=58 time=121 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=6 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=8 ttl=58 time=150 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=9 ttl=58 time=134 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=10 ttl=58 time=134 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=11 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=12 ttl=58 time=126 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=13 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=14 ttl=58 time=128 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=15 ttl=58 time=129 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=16 ttl=58 time=133 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=17 ttl=58 time=441 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=18 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=19 ttl=58 time=131 ms
+64 bytes from a104-122-2-232.deploy.static.akamaitechnologies.com (104.122.2.232): icmp_seq=20 ttl=58 time=142 ms
+
+--- steampowered.com ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19011ms
+rtt min/avg/max/mdev = 121.432/148.507/441.536/69.352 ms
+
+Appending ping results from Thu Feb  1 00:01:38 IST 2018

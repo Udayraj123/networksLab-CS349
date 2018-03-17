@@ -1,0 +1,235 @@
+
+Appending ping results from Wed Jan 31 19:00:07 IST 2018
+PING supercell.com (52.216.20.50) 56(84) bytes of data.
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=1 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=2 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=3 ttl=43 time=367 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=4 ttl=43 time=365 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=5 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=6 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=8 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=9 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=10 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=11 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=12 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=13 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=14 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=15 ttl=43 time=569 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=16 ttl=43 time=369 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=17 ttl=43 time=572 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=18 ttl=43 time=367 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=19 ttl=43 time=370 ms
+64 bytes from 52.216.20.50 (52.216.20.50): icmp_seq=20 ttl=43 time=503 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 24804ms
+rtt min/avg/max/mdev = 365.945/397.669/572.784/66.561 ms
+
+Appending ping results from Wed Jan 31 19:30:07 IST 2018
+PING supercell.com (52.216.2.26) 56(84) bytes of data.
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=1 ttl=43 time=361 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=2 ttl=43 time=372 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=3 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=4 ttl=43 time=366 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=5 ttl=43 time=535 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=6 ttl=43 time=364 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=7 ttl=43 time=364 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=8 ttl=43 time=364 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=9 ttl=43 time=367 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=10 ttl=43 time=356 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=11 ttl=43 time=508 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=12 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=13 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=14 ttl=43 time=357 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=15 ttl=43 time=364 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=16 ttl=43 time=359 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=17 ttl=43 time=368 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=18 ttl=43 time=368 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=19 ttl=43 time=366 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.2.26): icmp_seq=20 ttl=43 time=367 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19021ms
+rtt min/avg/max/mdev = 356.209/381.348/535.413/47.194 ms
+
+Appending ping results from Wed Jan 31 21:00:07 IST 2018
+PING supercell.com (52.216.99.162) 56(84) bytes of data.
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=1 ttl=43 time=458 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=2 ttl=43 time=372 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=3 ttl=43 time=371 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=4 ttl=43 time=724 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=5 ttl=43 time=760 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=6 ttl=43 time=370 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=7 ttl=43 time=372 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=9 ttl=43 time=369 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=10 ttl=43 time=369 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=11 ttl=43 time=369 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=12 ttl=43 time=371 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=14 ttl=43 time=637 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=15 ttl=43 time=373 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=16 ttl=43 time=372 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=17 ttl=43 time=372 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=18 ttl=43 time=372 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=19 ttl=43 time=479 ms
+64 bytes from 52.216.99.162 (52.216.99.162): icmp_seq=20 ttl=43 time=371 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 24704ms
+rtt min/avg/max/mdev = 369.614/438.307/760.449/125.920 ms
+
+Appending ping results from Wed Jan 31 21:30:07 IST 2018
+PING supercell.com (52.216.82.178) 56(84) bytes of data.
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=1 ttl=43 time=413 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=2 ttl=43 time=377 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=3 ttl=43 time=375 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=4 ttl=43 time=380 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=5 ttl=43 time=376 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=6 ttl=43 time=376 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=7 ttl=43 time=376 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=8 ttl=43 time=376 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=9 ttl=43 time=390 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=10 ttl=43 time=373 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=11 ttl=43 time=374 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=12 ttl=43 time=371 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=14 ttl=43 time=374 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=15 ttl=43 time=375 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=16 ttl=43 time=375 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=17 ttl=43 time=451 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=18 ttl=43 time=373 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=19 ttl=43 time=374 ms
+64 bytes from 52.216.82.178 (52.216.82.178): icmp_seq=20 ttl=43 time=374 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 24615ms
+rtt min/avg/max/mdev = 371.279/382.271/451.090/18.638 ms
+
+Appending ping results from Wed Jan 31 22:00:08 IST 2018
+PING supercell.com (52.216.97.130) 56(84) bytes of data.
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=1 ttl=43 time=408 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=2 ttl=43 time=374 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=3 ttl=43 time=372 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=4 ttl=43 time=363 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=5 ttl=43 time=374 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=6 ttl=43 time=374 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=7 ttl=43 time=367 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=8 ttl=43 time=364 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=9 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=10 ttl=43 time=491 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=11 ttl=43 time=600 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=12 ttl=43 time=668 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=14 ttl=43 time=373 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=15 ttl=43 time=373 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=16 ttl=43 time=502 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=17 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=18 ttl=43 time=953 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=19 ttl=43 time=358 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.97.130): icmp_seq=20 ttl=43 time=372 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 19006ms
+rtt min/avg/max/mdev = 358.144/444.017/953.769/147.423 ms
+
+Appending ping results from Wed Jan 31 22:30:08 IST 2018
+PING supercell.com (52.216.32.18) 56(84) bytes of data.
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=1 ttl=40 time=379 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=2 ttl=40 time=525 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=3 ttl=40 time=362 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=4 ttl=40 time=374 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=5 ttl=40 time=378 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=6 ttl=40 time=380 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=7 ttl=40 time=383 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=8 ttl=40 time=383 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=9 ttl=40 time=368 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=10 ttl=40 time=387 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=11 ttl=40 time=380 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=12 ttl=40 time=366 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=13 ttl=40 time=381 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=14 ttl=40 time=383 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=15 ttl=40 time=376 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=16 ttl=40 time=402 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=17 ttl=40 time=373 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=18 ttl=40 time=360 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=19 ttl=40 time=385 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (52.216.32.18): icmp_seq=20 ttl=40 time=386 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19004ms
+rtt min/avg/max/mdev = 360.451/386.053/525.242/33.288 ms
+
+Appending ping results from Wed Jan 31 23:00:07 IST 2018
+PING supercell.com (54.231.115.57) 56(84) bytes of data.
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=1 ttl=40 time=375 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=2 ttl=40 time=405 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=3 ttl=40 time=363 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=4 ttl=40 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=5 ttl=40 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=6 ttl=40 time=369 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=7 ttl=40 time=368 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=8 ttl=40 time=361 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=9 ttl=40 time=369 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=10 ttl=40 time=372 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=11 ttl=40 time=366 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=12 ttl=40 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=13 ttl=40 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=14 ttl=40 time=362 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=15 ttl=40 time=369 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=16 ttl=40 time=377 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=17 ttl=40 time=369 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=18 ttl=40 time=359 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=19 ttl=40 time=367 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.115.57): icmp_seq=20 ttl=40 time=342 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19002ms
+rtt min/avg/max/mdev = 342.942/369.168/405.526/10.925 ms
+
+Appending ping results from Wed Jan 31 23:30:07 IST 2018
+PING supercell.com (52.216.162.154) 56(84) bytes of data.
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=1 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=2 ttl=43 time=372 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=3 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=4 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=5 ttl=43 time=371 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=6 ttl=43 time=375 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=7 ttl=43 time=368 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=8 ttl=43 time=368 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=9 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=10 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=11 ttl=43 time=359 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=13 ttl=43 time=486 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=14 ttl=43 time=368 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=15 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=16 ttl=43 time=466 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=17 ttl=43 time=373 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=18 ttl=43 time=372 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=19 ttl=43 time=375 ms
+64 bytes from 52.216.162.154 (52.216.162.154): icmp_seq=20 ttl=43 time=367 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 19 received, 5% packet loss, time 28395ms
+rtt min/avg/max/mdev = 359.440/382.497/486.442/32.556 ms
+
+Appending ping results from Thu Feb  1 00:00:07 IST 2018
+PING supercell.com (54.231.120.89) 56(84) bytes of data.
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=1 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=2 ttl=43 time=413 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=3 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=4 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=5 ttl=43 time=367 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=6 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=7 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=8 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=9 ttl=43 time=370 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=11 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=12 ttl=43 time=666 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=13 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=14 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=15 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=16 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=17 ttl=43 time=375 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=19 ttl=43 time=371 ms
+64 bytes from s3-website-us-east-1.amazonaws.com (54.231.120.89): icmp_seq=20 ttl=43 time=369 ms
+
+--- supercell.com ping statistics ---
+20 packets transmitted, 18 received, 10% packet loss, time 19040ms
+rtt min/avg/max/mdev = 367.861/389.879/666.164/67.730 ms

@@ -1,0 +1,99 @@
+Appending traceroute counts from Wed Jan 31 19:07:27 IST 2018
+Wed Jan 31 19:07:49 IST 2018,supercell.com, 25
+Wed Jan 31 19:07:57 IST 2018,techfest.org, 7
+Wed Jan 31 19:08:32 IST 2018,techniche.org, 30
+Wed Jan 31 19:08:53 IST 2018,github.com, 18
+Wed Jan 31 19:09:24 IST 2018,codeforces.com, 18
+Wed Jan 31 19:09:49 IST 2018,ubuntu.com, 30
+Wed Jan 31 19:10:12 IST 2018,steampowered.com, 7
+Wed Jan 31 19:10:19 IST 2018,cricbuzz.com, 13
+Wed Jan 31 19:10:47 IST 2018,billboard.com, 13
+Wed Jan 31 19:11:27 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 19:37:22 IST 2018
+Wed Jan 31 19:38:00 IST 2018,supercell.com, 26
+Wed Jan 31 19:38:25 IST 2018,techfest.org, 7
+Wed Jan 31 19:38:30 IST 2018,techniche.org, 11
+Wed Jan 31 19:38:43 IST 2018,github.com, 17
+Wed Jan 31 19:38:53 IST 2018,codeforces.com, 18
+Wed Jan 31 19:39:17 IST 2018,ubuntu.com, 30
+Wed Jan 31 19:39:21 IST 2018,steampowered.com, 7
+Wed Jan 31 19:40:25 IST 2018,cricbuzz.com, 13
+Wed Jan 31 19:42:10 IST 2018,billboard.com, 13
+Wed Jan 31 19:42:30 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 21:07:26 IST 2018
+Wed Jan 31 21:07:56 IST 2018,supercell.com, 26
+Wed Jan 31 21:08:02 IST 2018,techfest.org, 7
+Wed Jan 31 21:08:29 IST 2018,techniche.org, 30
+Wed Jan 31 21:09:02 IST 2018,github.com, 17
+Wed Jan 31 21:09:13 IST 2018,codeforces.com, 17
+Wed Jan 31 21:09:35 IST 2018,ubuntu.com, 30
+Wed Jan 31 21:11:36 IST 2018,steampowered.com, 7
+Wed Jan 31 21:13:00 IST 2018,cricbuzz.com, 13
+Wed Jan 31 21:13:07 IST 2018,billboard.com, 13
+Wed Jan 31 21:13:27 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 21:37:24 IST 2018
+Wed Jan 31 21:37:46 IST 2018,supercell.com, 26
+Wed Jan 31 21:37:51 IST 2018,techfest.org, 7
+Wed Jan 31 21:38:18 IST 2018,techniche.org, 30
+Wed Jan 31 21:38:28 IST 2018,github.com, 17
+Wed Jan 31 21:38:49 IST 2018,codeforces.com, 17
+Wed Jan 31 21:39:10 IST 2018,ubuntu.com, 30
+Wed Jan 31 21:39:12 IST 2018,steampowered.com, 5
+Wed Jan 31 21:39:19 IST 2018,cricbuzz.com, 13
+Wed Jan 31 21:39:32 IST 2018,billboard.com, 13
+Wed Jan 31 21:39:58 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 22:07:37 IST 2018
+Wed Jan 31 22:08:08 IST 2018,supercell.com, 26
+Wed Jan 31 22:08:14 IST 2018,techfest.org, 7
+Wed Jan 31 22:08:29 IST 2018,techniche.org, 14
+Wed Jan 31 22:08:42 IST 2018,github.com, 17
+Wed Jan 31 22:09:12 IST 2018,codeforces.com, 17
+Wed Jan 31 22:09:35 IST 2018,ubuntu.com, 30
+Wed Jan 31 22:09:39 IST 2018,steampowered.com, 7
+Wed Jan 31 22:09:48 IST 2018,cricbuzz.com, 13
+Wed Jan 31 22:09:57 IST 2018,billboard.com, 13
+Wed Jan 31 22:10:26 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 22:37:21 IST 2018
+Wed Jan 31 22:37:40 IST 2018,supercell.com, 26
+Wed Jan 31 22:37:46 IST 2018,techfest.org, 7
+Wed Jan 31 22:38:10 IST 2018,techniche.org, 30
+Wed Jan 31 22:38:21 IST 2018,github.com, 17
+Wed Jan 31 22:38:31 IST 2018,codeforces.com, 17
+Wed Jan 31 22:38:56 IST 2018,ubuntu.com, 30
+Wed Jan 31 22:39:00 IST 2018,steampowered.com, 5
+Wed Jan 31 22:39:05 IST 2018,cricbuzz.com, 13
+Wed Jan 31 22:39:13 IST 2018,billboard.com, 13
+Wed Jan 31 22:39:31 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 23:07:24 IST 2018
+Wed Jan 31 23:07:44 IST 2018,supercell.com, 26
+Wed Jan 31 23:07:50 IST 2018,techfest.org, 7
+Wed Jan 31 23:08:09 IST 2018,techniche.org, 25
+Wed Jan 31 23:08:18 IST 2018,github.com, 17
+Wed Jan 31 23:08:30 IST 2018,codeforces.com, 17
+Wed Jan 31 23:08:53 IST 2018,ubuntu.com, 30
+Wed Jan 31 23:08:56 IST 2018,steampowered.com, 7
+Wed Jan 31 23:09:02 IST 2018,cricbuzz.com, 13
+Wed Jan 31 23:09:30 IST 2018,billboard.com, 13
+Wed Jan 31 23:09:50 IST 2018,uefa.com, 30
+Appending traceroute counts from Wed Jan 31 23:37:33 IST 2018
+Wed Jan 31 23:39:21 IST 2018,supercell.com, 26
+Wed Jan 31 23:39:27 IST 2018,techfest.org, 7
+Wed Jan 31 23:40:04 IST 2018,techniche.org, 30
+Wed Jan 31 23:40:30 IST 2018,github.com, 17
+Wed Jan 31 23:41:32 IST 2018,codeforces.com, 17
+Wed Jan 31 23:41:56 IST 2018,ubuntu.com, 30
+Wed Jan 31 23:42:01 IST 2018,steampowered.com, 7
+Wed Jan 31 23:42:09 IST 2018,cricbuzz.com, 13
+Wed Jan 31 23:42:16 IST 2018,billboard.com, 13
+Wed Jan 31 23:43:34 IST 2018,uefa.com, 30
+Appending traceroute counts from Thu Feb  1 00:02:18 IST 2018
+Thu Feb 1 00:02:18 IST 2018,supercell.com, -1
+Thu Feb 1 00:02:18 IST 2018,techfest.org, -1
+Thu Feb 1 00:02:18 IST 2018,techniche.org, -1
+Thu Feb 1 00:02:19 IST 2018,github.com, -1
+Thu Feb 1 00:02:19 IST 2018,codeforces.com, -1
+Thu Feb 1 00:02:19 IST 2018,ubuntu.com, -1
+Thu Feb 1 00:02:19 IST 2018,steampowered.com, -1
+Thu Feb 1 00:02:29 IST 2018,cricbuzz.com, -1
+Thu Feb 1 00:02:39 IST 2018,billboard.com, -1
+Thu Feb 1 00:02:49 IST 2018,uefa.com, -1

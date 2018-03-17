@@ -1,0 +1,81 @@
+
+Appending ping results from Wed Jan 31 19:03:33 IST 2018
+PING techniche.org (43.255.154.56) 64(92) bytes of data.
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=1 ttl=55 time=216 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=2 ttl=55 time=128 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=3 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=4 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=5 ttl=55 time=127 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=6 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=7 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=8 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=9 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=10 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=11 ttl=55 time=131 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=12 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=13 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=14 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=15 ttl=55 time=131 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=16 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=17 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=18 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=19 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=20 ttl=55 time=130 ms
+
+--- techniche.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 21009ms
+rtt min/avg/max/mdev = 127.778/134.439/216.709/18.898 ms
+
+Appending ping results from Wed Jan 31 19:33:30 IST 2018
+PING techniche.org (43.255.154.56) 64(92) bytes of data.
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=1 ttl=55 time=180 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=2 ttl=55 time=130 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=3 ttl=55 time=121 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=4 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=5 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=6 ttl=55 time=140 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=7 ttl=55 time=133 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=8 ttl=55 time=115 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=9 ttl=55 time=181 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=10 ttl=55 time=131 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=11 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=12 ttl=55 time=226 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=13 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=14 ttl=55 time=122 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=15 ttl=55 time=123 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=16 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=17 ttl=55 time=121 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=18 ttl=55 time=122 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=19 ttl=55 time=129 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=20 ttl=55 time=122 ms
+
+--- techniche.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19009ms
+rtt min/avg/max/mdev = 115.290/137.290/226.679/26.659 ms
+
+Appending ping results from Wed Jan 31 21:03:35 IST 2018
+PING techniche.org (43.255.154.56) 64(92) bytes of data.
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=1 ttl=55 time=125 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=2 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=3 ttl=55 time=127 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=4 ttl=55 time=124 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=5 ttl=55 time=128 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=6 ttl=55 time=128 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=7 ttl=55 time=125 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=8 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=9 ttl=55 time=127 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=10 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=11 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=12 ttl=55 time=127 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=13 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=14 ttl=55 time=128 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=15 ttl=55 time=126 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=16 ttl=55 time=123 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=17 ttl=55 time=123 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=18 ttl=55 time=125 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=19 ttl=55 time=127 ms
+72 bytes from 43.255.154.56 (43.255.154.56): icmp_seq=20 ttl=55 time=128 ms
+
+--- techniche.org ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 123.053/126.496/128.617/1.516 ms

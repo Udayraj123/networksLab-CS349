@@ -1,0 +1,212 @@
+
+Appending ping results from Wed Jan 31 19:01:13 IST 2018
+PING github.com (192.30.255.113) 56(84) bytes of data.
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=1 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=2 ttl=50 time=411 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=3 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=5 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=6 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=7 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=8 ttl=50 time=409 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=9 ttl=50 time=410 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=10 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=12 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=13 ttl=50 time=410 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=14 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=15 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=16 ttl=50 time=411 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=18 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=19 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=20 ttl=50 time=408 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 17 received, 15% packet loss, time 19079ms
+rtt min/avg/max/mdev = 406.167/408.595/411.392/1.650 ms
+
+Appending ping results from Wed Jan 31 19:31:12 IST 2018
+PING github.com (192.30.255.112) 56(84) bytes of data.
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=1 ttl=51 time=390 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=2 ttl=51 time=396 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=3 ttl=51 time=400 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=4 ttl=51 time=391 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=5 ttl=51 time=390 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=6 ttl=51 time=389 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=7 ttl=51 time=387 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=8 ttl=51 time=394 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=9 ttl=51 time=398 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=10 ttl=51 time=393 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=11 ttl=51 time=382 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=12 ttl=51 time=391 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=13 ttl=51 time=397 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=14 ttl=51 time=398 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=15 ttl=51 time=401 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=16 ttl=51 time=391 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=17 ttl=51 time=399 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=18 ttl=51 time=393 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=19 ttl=51 time=392 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=20 ttl=51 time=393 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19020ms
+rtt min/avg/max/mdev = 382.410/393.653/401.446/4.738 ms
+
+Appending ping results from Wed Jan 31 21:01:15 IST 2018
+PING github.com (192.30.255.113) 56(84) bytes of data.
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=1 ttl=50 time=402 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=2 ttl=50 time=404 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=4 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=5 ttl=50 time=728 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=6 ttl=50 time=558 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=7 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=8 ttl=50 time=664 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=9 ttl=50 time=559 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=11 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=12 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=13 ttl=50 time=607 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=15 ttl=50 time=404 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=16 ttl=50 time=403 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=17 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=18 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=19 ttl=50 time=404 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=20 ttl=50 time=405 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 17 received, 15% packet loss, time 19055ms
+rtt min/avg/max/mdev = 402.584/469.321/728.338/105.843 ms
+
+Appending ping results from Wed Jan 31 21:31:13 IST 2018
+PING github.com (192.30.255.113) 56(84) bytes of data.
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=1 ttl=50 time=404 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=2 ttl=50 time=401 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=3 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=4 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=5 ttl=50 time=403 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=6 ttl=50 time=409 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=7 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=8 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=9 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=10 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=11 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=12 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=13 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=14 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=15 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=16 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=17 ttl=50 time=405 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=18 ttl=50 time=409 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=19 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=20 ttl=50 time=401 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19004ms
+rtt min/avg/max/mdev = 401.170/405.761/409.356/1.973 ms
+
+Appending ping results from Wed Jan 31 22:01:20 IST 2018
+PING github.com (192.30.255.112) 56(84) bytes of data.
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=1 ttl=51 time=826 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=2 ttl=51 time=405 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=3 ttl=51 time=406 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=4 ttl=51 time=395 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=5 ttl=51 time=691 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=6 ttl=51 time=405 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=7 ttl=51 time=692 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=8 ttl=51 time=402 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=9 ttl=51 time=403 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=10 ttl=51 time=391 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=11 ttl=51 time=896 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=12 ttl=51 time=403 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=13 ttl=51 time=399 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=14 ttl=51 time=400 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=15 ttl=51 time=699 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=16 ttl=51 time=401 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=17 ttl=51 time=395 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=18 ttl=51 time=404 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=19 ttl=51 time=395 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=20 ttl=51 time=400 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19016ms
+rtt min/avg/max/mdev = 391.000/490.827/896.192/161.796 ms
+
+Appending ping results from Wed Jan 31 22:31:12 IST 2018
+PING github.com (192.30.255.113) 56(84) bytes of data.
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=1 ttl=50 time=412 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=2 ttl=50 time=421 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=3 ttl=50 time=400 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=4 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=5 ttl=50 time=414 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=6 ttl=50 time=415 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=7 ttl=50 time=411 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=8 ttl=50 time=412 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=9 ttl=50 time=403 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=10 ttl=50 time=418 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=11 ttl=50 time=432 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=12 ttl=50 time=416 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=13 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=14 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=15 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=16 ttl=50 time=406 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=17 ttl=50 time=415 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=18 ttl=50 time=399 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=19 ttl=50 time=401 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=20 ttl=50 time=420 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19005ms
+rtt min/avg/max/mdev = 399.897/411.706/432.763/7.968 ms
+
+Appending ping results from Wed Jan 31 23:01:15 IST 2018
+PING github.com (192.30.255.112) 56(84) bytes of data.
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=1 ttl=51 time=400 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=2 ttl=51 time=453 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=3 ttl=51 time=406 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=4 ttl=51 time=416 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=5 ttl=51 time=405 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=6 ttl=51 time=454 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=7 ttl=51 time=428 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=8 ttl=51 time=440 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=9 ttl=51 time=404 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=10 ttl=51 time=498 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=11 ttl=51 time=404 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=12 ttl=51 time=400 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=13 ttl=51 time=405 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=14 ttl=51 time=405 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=15 ttl=51 time=514 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=16 ttl=51 time=428 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=17 ttl=51 time=404 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=18 ttl=51 time=697 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=19 ttl=51 time=489 ms
+64 bytes from lb-192-30-255-112-sea.github.com (192.30.255.112): icmp_seq=20 ttl=51 time=407 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19002ms
+rtt min/avg/max/mdev = 400.332/443.259/697.118/67.494 ms
+
+Appending ping results from Wed Jan 31 23:31:17 IST 2018
+PING github.com (192.30.255.113) 56(84) bytes of data.
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=1 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=2 ttl=50 time=410 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=3 ttl=50 time=415 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=4 ttl=50 time=910 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=5 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=6 ttl=50 time=416 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=7 ttl=50 time=413 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=8 ttl=50 time=698 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=9 ttl=50 time=412 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=10 ttl=50 time=416 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=11 ttl=50 time=413 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=12 ttl=50 time=408 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=13 ttl=50 time=415 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=14 ttl=50 time=409 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=15 ttl=50 time=407 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=16 ttl=50 time=419 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=17 ttl=50 time=416 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=18 ttl=50 time=931 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=19 ttl=50 time=413 ms
+64 bytes from lb-192-30-255-113-sea.github.com (192.30.255.113): icmp_seq=20 ttl=50 time=417 ms
+
+--- github.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 407.249/478.107/931.750/160.259 ms
+
+Appending ping results from Thu Feb  1 00:01:08 IST 2018

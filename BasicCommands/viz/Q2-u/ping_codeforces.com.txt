@@ -1,0 +1,81 @@
+
+Appending ping results from Wed Jan 31 19:01:34 IST 2018
+PING codeforces.com (212.193.33.27) 56(84) bytes of data.
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=1 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=2 ttl=49 time=325 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=3 ttl=49 time=295 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=4 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=5 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=6 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=7 ttl=49 time=295 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=8 ttl=49 time=385 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=9 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=10 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=11 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=12 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=13 ttl=49 time=295 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=14 ttl=49 time=291 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=15 ttl=49 time=295 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=16 ttl=49 time=295 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=17 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=18 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=19 ttl=49 time=586 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=20 ttl=49 time=295 ms
+
+--- codeforces.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19867ms
+rtt min/avg/max/mdev = 291.085/316.335/586.640/65.226 ms
+
+Appending ping results from Wed Jan 31 19:31:31 IST 2018
+PING codeforces.com (212.193.33.27) 56(84) bytes of data.
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=1 ttl=49 time=293 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=2 ttl=49 time=290 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=3 ttl=49 time=288 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=4 ttl=49 time=344 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=5 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=6 ttl=49 time=289 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=7 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=8 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=9 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=10 ttl=49 time=286 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=11 ttl=49 time=296 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=12 ttl=49 time=291 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=13 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=14 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=15 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=16 ttl=49 time=281 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=17 ttl=49 time=294 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=18 ttl=49 time=486 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=19 ttl=49 time=297 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=20 ttl=49 time=288 ms
+
+--- codeforces.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19024ms
+rtt min/avg/max/mdev = 281.211/305.356/486.148/43.207 ms
+
+Appending ping results from Wed Jan 31 21:01:36 IST 2018
+PING codeforces.com (212.193.33.27) 56(84) bytes of data.
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=1 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=2 ttl=49 time=290 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=3 ttl=49 time=291 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=4 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=5 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=6 ttl=49 time=582 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=7 ttl=49 time=324 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=8 ttl=49 time=291 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=9 ttl=49 time=291 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=10 ttl=49 time=293 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=11 ttl=49 time=293 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=12 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=13 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=14 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=15 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=16 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=17 ttl=49 time=293 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=18 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=19 ttl=49 time=292 ms
+64 bytes from codeforces.ptr.sgu.ru (212.193.33.27): icmp_seq=20 ttl=49 time=292 ms
+
+--- codeforces.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19934ms
+rtt min/avg/max/mdev = 290.970/308.571/582.250/63.186 ms

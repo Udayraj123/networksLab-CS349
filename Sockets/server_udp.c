@@ -1,21 +1,15 @@
 /******************************************
  * UDP Iterative server: server_udp.c
  ******************************************/
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h> // Internet family of protocols
-#include <arpa/inet.h>
+#include "socketConf.h"
 #include <unistd.h>
 
-#define PORT 50000
-#define BUFFSIZE 1024
 
 int main(){
     int socDes ;
     struct sockaddr_in	thisAddr, thatAddr;
     int dataBytes, thatAddrLen ;
-    char buff[BUFFSIZE] ;
+    char buff[MAX_BUF_UDP] ;
 
     if((socDes = socket(PF_INET, SOCK_DGRAM, 0)) == -1) {
         perror("cannot create socket") ;
@@ -25,7 +19,7 @@ int main(){
     thisAddr.sin_family = PF_INET ;
     thisAddr.sin_addr.s_addr = INADDR_ANY ; // inet_addr("127.0.0.1") ; 
                                         	  // Converts to 32-bit number
-    thisAddr.sin_port = htons(PORT) ;  // Port number - byte order
+    thisAddr.sin_port = htons(UDP_PORT) ;  // UDP_PORT number - byte order
 
     if((bind(socDes, (struct sockaddr *)&thisAddr, sizeof(thisAddr))) < 0) {
         perror("cannot bind") ;
@@ -35,7 +29,7 @@ int main(){
 
     thatAddrLen = sizeof(thatAddr) ;
 
-    if((dataBytes=recvfrom(socDes, buff, BUFFSIZE-1, 0,
+    if((dataBytes=recvfrom(socDes, buff, MAX_BUF_UDP-1, 0,
                            (struct sockaddr *)&thatAddr, &thatAddrLen)) < 0) {
                  perror("cannot receive") ;
                  return 0 ;

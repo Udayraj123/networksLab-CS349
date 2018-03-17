@@ -8,20 +8,15 @@
 
 	to the IP-address of the machine where you are running the server.
 */
+#include "socketConf.h"
 
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#define MAX_BUF_LEN 100
 main()
 {
 	int			sockfd ;
 	struct sockaddr_in	serv_addr;
 
 	int i;
-	char buf[MAX_BUF_LEN];
+	char buf[MAX_BUF_TCP];
 
 	/* Opening a socket is exactly similar to the server process */
 	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
@@ -42,8 +37,8 @@ main()
     	*/
 	serv_addr.sin_family		= AF_INET;
 	// serv_addr.sin_addr.s_addr	= inet_addr("144.16.202.221");
-	serv_addr.sin_addr.s_addr	= inet_addr("127.0.0.1");
-	serv_addr.sin_port		= htons(6000);
+	serv_addr.sin_addr.s_addr	= inet_addr(SERVER_ADDR);
+	serv_addr.sin_port		= htons(TCP_PORT);
 
 	/* With the information specified in serv_addr, the connect()
 	   system call establishes a connection with the server process.
@@ -60,10 +55,12 @@ main()
 	   block when the server is not receiving and vice versa. For
 	   non-blocking modes, refer to the online man pages.
 	*/
-	// for(i=0; i < MAX_BUF_LEN; i++) buf[i] = '\0';
-	memset(buf,'\0', MAX_BUF_LEN*sizeof(char));
-	recv(sockfd, buf, MAX_BUF_LEN, 0);
+	// for(i=0; i < MAX_BUF_TCP; i++) buf[i] = '\0';
+	memset(buf,'\0', MAX_BUF_TCP*sizeof(char));
+	recv(sockfd, buf, MAX_BUF_TCP, 0);
 	printf("Receieved: %s\n", buf);
+	int received_port_number = strtoull(buf, NULL, 10);
+	printf("Receieved port: %d\n", received_port_number);
 
 	
 	strcpy(buf,"Message from client");

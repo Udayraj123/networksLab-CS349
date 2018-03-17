@@ -1,0 +1,266 @@
+
+Appending traceroute results from Wed Jan 31 19:09:49 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  129.157 ms * *
+ 2  139.59.80.253 (139.59.80.253)  129.188 ms  129.181 ms 139.59.80.254 (139.59.80.254)  129.168 ms
+ 3  138.197.249.18 (138.197.249.18)  129.162 ms 138.197.249.0 (138.197.249.0)  128.900 ms 138.197.249.14 (138.197.249.14)  128.885 ms
+ 4  219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  129.048 ms 219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  186.639 ms 219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  128.992 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  186.481 ms  184.374 ms *
+ 7  if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  268.416 ms if-ae-5-2.tcore1.WYN-Marseille.as6453.net (180.87.38.126)  273.821 ms  268.439 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  273.762 ms  268.439 ms  268.400 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  268.350 ms  318.557 ms  318.506 ms
+10  80.231.153.66 (80.231.153.66)  318.470 ms  318.383 ms  361.662 ms
+11  ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  361.617 ms ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  361.562 ms  361.562 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  542.775 ms  542.759 ms  542.668 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  317.438 ms  317.369 ms  317.394 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 19:39:17 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  119.228 ms * *
+ 2  139.59.80.253 (139.59.80.253)  119.294 ms 139.59.80.254 (139.59.80.254)  119.271 ms  119.242 ms
+ 3  138.197.249.0 (138.197.249.0)  119.208 ms 138.197.249.18 (138.197.249.18)  119.279 ms 138.197.249.0 (138.197.249.0)  119.206 ms
+ 4  219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  158.979 ms 219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  119.268 ms  119.271 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  158.956 ms  212.260 ms  212.241 ms
+ 7  if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  310.669 ms if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  310.481 ms  310.578 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  310.519 ms  464.321 ms  464.175 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  264.151 ms  264.220 ms  264.174 ms
+10  80.231.153.66 (80.231.153.66)  256.663 ms  264.093 ms  386.589 ms
+11  ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  386.563 ms  386.603 ms  386.486 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  386.341 ms  386.435 ms  386.303 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  386.096 ms  386.113 ms  245.506 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 21:09:35 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  139.59.80.254 (139.59.80.254)  177.001 ms  267.885 ms  267.938 ms
+ 3  138.197.249.14 (138.197.249.14)  267.985 ms  268.002 ms 138.197.249.18 (138.197.249.18)  267.867 ms
+ 4  219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  267.975 ms  267.981 ms 219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  267.993 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  267.870 ms  179.842 ms  176.657 ms
+ 7  if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  485.384 ms  485.396 ms  485.287 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  266.081 ms  266.107 ms  265.933 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  265.673 ms  265.738 ms  396.666 ms
+10  80.231.153.66 (80.231.153.66)  308.816 ms  303.332 ms  303.280 ms
+11  ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  303.178 ms ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  303.225 ms ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  303.015 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  310.672 ms  310.685 ms  310.618 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  220.691 ms  310.366 ms  226.443 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 21:39:10 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  127.241 ms  127.233 ms  127.220 ms
+ 2  139.59.80.253 (139.59.80.253)  127.312 ms  127.308 ms 139.59.80.254 (139.59.80.254)  127.302 ms
+ 3  138.197.249.14 (138.197.249.14)  127.040 ms 138.197.249.18 (138.197.249.18)  127.034 ms 138.197.249.22 (138.197.249.22)  127.210 ms
+ 4  219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  171.239 ms  171.342 ms  171.345 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore2.MLV-Mumbai.as6453.net (180.87.39.25)  171.255 ms  142.143 ms  266.730 ms
+ 7  if-ae-2-2.tcore1.MLV-Mumbai.as6453.net (180.87.38.1)  266.907 ms  431.827 ms  266.868 ms
+ 8  if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  431.837 ms if-ae-5-2.tcore1.WYN-Marseille.as6453.net (180.87.38.126)  266.685 ms if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  340.807 ms
+ 9  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  340.793 ms  340.781 ms  340.698 ms
+10  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  255.678 ms  340.538 ms  267.421 ms
+11  80.231.153.66 (80.231.153.66)  267.379 ms  267.361 ms  267.339 ms
+12  ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  267.287 ms ae-124-3510.edge5.london1.Level3.net (4.69.166.37)  341.856 ms ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  267.245 ms
+13  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  267.215 ms  267.190 ms  267.165 ms
+14  bond0.ravi.canonical.com (91.189.88.5)  250.821 ms  250.578 ms  250.629 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 22:09:35 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  139.59.80.254 (139.59.80.254)  330.043 ms  330.120 ms  330.065 ms
+ 3  138.197.249.22 (138.197.249.22)  329.899 ms 138.197.249.14 (138.197.249.14)  97.341 ms 138.197.249.22 (138.197.249.22)  329.956 ms
+ 4  * * 219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  330.087 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  330.066 ms  232.542 ms  147.413 ms
+ 7  if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  273.043 ms  351.407 ms if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  351.456 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  272.798 ms  272.870 ms  272.661 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  256.104 ms *  261.437 ms
+10  80.231.153.66 (80.231.153.66)  338.058 ms  338.036 ms  337.836 ms
+11  ae-124-3510.edge5.london1.Level3.net (4.69.166.37)  338.038 ms ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  352.494 ms ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  352.318 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  280.180 ms  283.634 ms  283.535 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  283.458 ms  283.236 ms  286.738 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 22:38:56 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  88.841 ms * *
+ 2  139.59.80.254 (139.59.80.254)  121.578 ms 139.59.80.253 (139.59.80.253)  121.494 ms  121.408 ms
+ 3  138.197.249.18 (138.197.249.18)  121.226 ms 138.197.249.14 (138.197.249.14)  121.252 ms 138.197.249.22 (138.197.249.22)  121.248 ms
+ 4  219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  121.442 ms  121.441 ms 219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  182.211 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  182.128 ms  152.299 ms  199.940 ms
+ 7  if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  340.501 ms if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  276.934 ms if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  276.841 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  276.749 ms  340.236 ms  276.615 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  276.524 ms  276.409 ms  340.265 ms
+10  80.231.153.66 (80.231.153.66)  340.272 ms  340.135 ms  469.172 ms
+11  ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  501.496 ms ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  469.011 ms  468.910 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  501.477 ms  425.618 ms  425.582 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  392.831 ms  392.732 ms  392.556 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 23:08:53 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  90.114 ms * *
+ 2  139.59.80.254 (139.59.80.254)  142.162 ms 139.59.80.253 (139.59.80.253)  142.091 ms  142.030 ms
+ 3  138.197.249.22 (138.197.249.22)  141.929 ms  141.937 ms 138.197.249.18 (138.197.249.18)  141.784 ms
+ 4  219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  141.970 ms  141.972 ms 219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  141.967 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  179.191 ms  194.958 ms  229.186 ms
+ 7  if-ae-5-2.tcore1.WYN-Marseille.as6453.net (180.87.38.126)  320.991 ms  264.263 ms  264.256 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  264.281 ms  264.221 ms  320.906 ms
+ 9  if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  263.994 ms  264.027 ms  320.793 ms
+10  80.231.153.66 (80.231.153.66)  320.810 ms  320.753 ms  320.328 ms
+11  ae-126-3512.edge5.london1.Level3.net (4.69.166.45)  320.165 ms  320.200 ms ae-124-3510.edge5.london1.Level3.net (4.69.166.37)  320.245 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  320.111 ms  286.142 ms  456.861 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  316.473 ms  286.091 ms  316.471 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Wed Jan 31 23:41:56 IST 2018
+traceroute to ubuntu.com (91.189.94.40), 30 hops max, 60 byte packets
+ 1  gateway (10.8.0.1)  96.429 ms  135.050 ms *
+ 2  139.59.80.254 (139.59.80.254)  135.109 ms 139.59.80.253 (139.59.80.253)  135.040 ms  134.990 ms
+ 3  138.197.249.0 (138.197.249.0)  134.889 ms 138.197.249.18 (138.197.249.18)  134.873 ms 138.197.249.14 (138.197.249.14)  134.854 ms
+ 4  219.65.110.185.static-bangalore.vsnl.net.in (219.65.110.185)  134.888 ms 219.65.110.189.static-bangalore.vsnl.net.in (219.65.110.189)  134.870 ms  195.769 ms
+ 5  * * *
+ 6  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)  195.634 ms  195.546 ms  192.566 ms
+ 7  if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  361.829 ms if-ae-5-2.tcore1.WYN-Marseille.as6453.net (80.231.217.29)  361.838 ms if-ae-9-5.tcore1.WYN-Marseille.as6453.net (80.231.217.77)  434.068 ms
+ 8  if-ae-8-1600.tcore1.PYE-Paris.as6453.net (80.231.217.6)  433.944 ms  361.642 ms *
+ 9  * if-ae-11-2.tcore1.PVU-Paris.as6453.net (80.231.153.49)  361.495 ms *
+10  80.231.153.66 (80.231.153.66)  361.368 ms  361.244 ms  357.789 ms
+11  ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  357.801 ms ae-124-3510.edge5.london1.Level3.net (4.69.166.37)  357.813 ms ae-125-3511.edge5.london1.Level3.net (4.69.166.41)  357.743 ms
+12  SOURCE-MANA.edge5.London1.Level3.net (212.187.138.82)  357.606 ms  325.096 ms  343.441 ms
+13  bond0.ravi.canonical.com (91.189.88.5)  324.948 ms  324.859 ms  572.087 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+Appending traceroute results from Thu Feb  1 00:02:19 IST 2018

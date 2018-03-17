@@ -1,0 +1,61 @@
+Note : ping’s  -R(recourd route) option will print the complete path through which the packet goes.
+
+nmap
+-sS option and many others do not log into host's records as they are not sent ack.
+ /24 in range means fix first 24 bits.
+
+arp
+Entries in the ARP table can be static; created by manual configuration or dynamic; created automatically by the normal operation of the protocol. Static entries remain in the table forever and are not timed out.
+http://www.networkers-online.com/blog/2009/02/arp-caching-and-timeout/
+
+/proc interfaces
+   ARP supports a range of /proc interfaces to configure parameters  on  a
+   global  or  per-interface  basis.   The  interfaces  can be accessed by
+   reading  or  writing  the  /proc/sys/net/ipv4/neigh/*/*  files.    Each
+   interface    in    the    system    has    its    own    directory   in
+   /proc/sys/net/ipv4/neigh/.  The setting in the "default"  directory  is
+   used  for all newly created devices.  Unless otherwise specified, time-
+   related interfaces are specified in seconds.
+
+gc_interval (since Linux 2.2)
+              How frequently the garbage collector for neighbor entries should
+              attempt to run.  Defaults to 30 seconds.
+
+
+gc_stale_time (since Linux 2.2)
+      Determines how often to check for stale neighbor entries.   When
+      a  neighbor  entry  is  considered  stale,  it is resolved again
+      before sending data to it.  Defaults to 60 seconds.
+
+gc_thresh1 (since Linux 2.2)
+          The minimum number of entries to keep in  the  ARP  cache.   The
+          garbage  collector  will  not  run  if there are fewer than this
+          number of entries in the cache.  Defaults to 128.
+
+
+
+
+
+
+
+
+
+
+
+
+------ TOOLBOX -------
+More off subl - bookmark lines!
+	Combine it with multi cursor
+	http://www.macdrifter.com/2012/07/sublime-text-bookmarks.html	
+	Area selector - to make tables from multilines!
+
+Great tool in bash scripts, especially cron-
+notify-send --icon=/home/udayraj/Pictures/cat.jpeg "Title" "Message"
+when running the command locally from cron, 
+DISPLAY=:0.0 /usr/bin/notify-send "TITLE" "MESSAGE"
+
+
+watch -d=cumulative hightlights character level-changes, for line level changes-
+while true; do p1=$p2; p2=$(clear; arp -ne);  dwdiff -y "\010" -1 -c <(echo "$p1") <(echo "$p2"); sleep 2; done
+
+source: https://unix.stackexchange.com/questions/260241/color-output-of-linux-command-similar-to-watch-d-to-highlight-differences

@@ -1,0 +1,218 @@
+
+Appending ping results from Wed Jan 31 19:06:29 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=257 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=225 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=225 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=227 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=227 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=519 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=224 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=224 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=229 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=517 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=225 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=227 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=519 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=225 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19006ms
+rtt min/avg/max/mdev = 224.246/271.745/519.386/103.965 ms
+
+Appending ping results from Wed Jan 31 19:36:24 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=216 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=225 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=227 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=225 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=226 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=215 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=418 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=217 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=218 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=228 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=215 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=227 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=228 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=274 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=516 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=216 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 215.053/249.388/516.512/75.393 ms
+
+Appending ping results from Wed Jan 31 21:06:28 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=248 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=216 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=219 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=428 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=216 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=218 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=219 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=220 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=250 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=243 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19024ms
+rtt min/avg/max/mdev = 216.581/235.527/428.104/45.238 ms
+
+Appending ping results from Wed Jan 31 21:36:26 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=340 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=220 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=219 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=223 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=506 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=215 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=377 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=216 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=224 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=222 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=221 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=220 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=219 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=223 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19026ms
+rtt min/avg/max/mdev = 215.197/249.173/506.292/72.233 ms
+
+Appending ping results from Wed Jan 31 22:06:34 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=350 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=228 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=229 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=285 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=533 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=2582 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=2321 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=12602 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=13190 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=12943 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=12243 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=11220 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=10196 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=7604 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=8628 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=9655 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=6583 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=5829 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=4892 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=4201 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19268ms
+rtt min/avg/max/mdev = 228.482/6316.157/13190.805/4686.693 ms, pipe 13
+
+Appending ping results from Wed Jan 31 22:36:23 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=299 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=628 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=300 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=298 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=279 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=298 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=301 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=301 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=299 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=299 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=300 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=300 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=300 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=293 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=282 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=294 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=286 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=294 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=299 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=290 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 279.659/312.457/628.305/72.728 ms
+
+Appending ping results from Wed Jan 31 23:06:26 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=250 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=240 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=245 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=246 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=239 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=246 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=241 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=245 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=247 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=251 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=259 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=245 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=234 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=262 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=303 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=350 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=244 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=247 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=238 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=236 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19002ms
+rtt min/avg/max/mdev = 234.350/253.810/350.192/26.270 ms
+
+Appending ping results from Wed Jan 31 23:36:30 IST 2018
+PING ubuntu.com (91.189.94.40) 512(540) bytes of data.
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=1 ttl=51 time=390 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=2 ttl=51 time=232 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=3 ttl=51 time=231 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=4 ttl=51 time=532 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=5 ttl=51 time=233 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=6 ttl=51 time=403 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=7 ttl=51 time=789 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=8 ttl=51 time=605 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=9 ttl=51 time=1079 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=10 ttl=51 time=233 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=11 ttl=51 time=342 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=12 ttl=51 time=1158 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=13 ttl=51 time=642 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=14 ttl=51 time=357 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=15 ttl=51 time=232 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=16 ttl=51 time=233 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=17 ttl=51 time=827 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=18 ttl=51 time=233 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=19 ttl=51 time=765 ms
+520 bytes from ovinnik.canonical.com (91.189.94.40): icmp_seq=20 ttl=51 time=234 ms
+
+--- ubuntu.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19022ms
+rtt min/avg/max/mdev = 231.175/487.971/1158.518/291.209 ms, pipe 2
+
+Appending ping results from Thu Feb  1 00:02:18 IST 2018

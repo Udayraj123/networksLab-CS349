@@ -1,0 +1,35 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-02-01 00:02 IST
+Nmap scan report for 10.1.2.13
+Host is up (0.00084s latency).
+Nmap scan report for 10.1.2.22
+Host is up (0.00024s latency).
+Nmap scan report for 10.1.2.24
+Host is up (0.00040s latency).
+Nmap scan report for 10.1.2.29
+Host is up (0.0011s latency).
+Nmap scan report for 10.1.2.39
+Host is up (0.0020s latency).
+Nmap scan report for 10.1.2.42
+Host is up (0.0034s latency).
+Nmap scan report for 10.1.2.43
+Host is up (0.0011s latency).
+Nmap scan report for 10.1.2.54
+Host is up (0.00096s latency).
+Nmap scan report for 10.1.2.57
+Host is up (0.00080s latency).
+Nmap scan report for 10.1.2.65
+Host is up (0.021s latency).
+Nmap scan report for 10.1.2.79
+Host is up (0.0028s latency).
+Nmap scan report for 10.1.2.81
+Host is up (0.0016s latency).
+Nmap scan report for 10.1.2.84
+Host is up (0.0027s latency).
+Nmap scan report for 10.1.2.86
+Host is up (0.00074s latency).
+Nmap scan report for 10.1.2.87
+Host is up (0.00096s latency).
+Nmap scan report for 10.1.2.91
+Host is up (0.0046s latency).
+Nmap done: 256 IP addresses (16 hosts up) scanned in 3.01 seconds

@@ -24,15 +24,7 @@ descriptor. The socket is then bound to the desired port number. After this
 the process waits to "accept" client connections.
 
 */
-
-#include <stdio.h>
-#include <stdlib.h> // contains exit()
-#include <sys/types.h>
-
-/* The following three files must be included for network programming */
-#include <sys/socket.h> 
-#include <netinet/in.h>
-#include <arpa/inet.h>
+#include "socketConf.h"
 
 			/* THE SERVER PROCESS */
 
@@ -46,7 +38,7 @@ main()
 	struct sockaddr_in	cli_addr, serv_addr;
 
 	int i;
-	char buf[100];		/* We will use this buffer for communication */
+	char buf[MAX_BUF_TCP];		/* We will use this buffer for communication */
 
 	/* The following system call opens a socket. The first parameter
 	   indicates the family of the protocol to be followed. For internet
@@ -69,7 +61,7 @@ main()
 	*/
 	serv_addr.sin_family		= AF_INET;
 	serv_addr.sin_addr.s_addr	= INADDR_ANY;
-	serv_addr.sin_port		= htons(6000);
+	serv_addr.sin_port		= htons(TCP_PORT);
 
 	/* With the information provided in serv_addr, we associate the server
 	   with its port using the bind() system call. 
@@ -120,7 +112,7 @@ main()
 		   server now forks. The parent closes the new socket
 		   descriptor and loops back to accept the next connection.
 		*/
-		if (fork() == 0) {
+		if (fork() == 0) {// memspace is duplicated immediately
 
 			/* This child process will now communicate with the
 			   client through the send() and recv() system calls.
@@ -134,14 +126,17 @@ main()
 			   and send the message to the client. 
 			*/
 			
-			strcpy(buf,"Message from server");
+			// strcpy(buf,"msg from server");
+			sprintf(buf,"%d",UDP_PORT); // ref: https://stackoverflow.com/questions/5050067/simple-int-to-char-conversion
+
 			send(newsockfd, buf, strlen(buf) + 1, 0);
 
 			/* We again initialize the buffer, and receive a 
 			   message from the client. 
 			*/
-			for(i=0; i < 100; i++) buf[i] = '\0';
-			recv(newsockfd, buf, 100, 0);
+			// for(i=0; i < MAX_BUF_TCP; i++) buf[i] = '\0';
+			memset(buf,'\0', MAX_BUF_TCP*sizeof(char));
+			recv(newsockfd, buf, MAX_BUF_TCP, 0);
 			printf("%s\n", buf);
 
 			close(newsockfd);
