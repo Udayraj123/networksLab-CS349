@@ -64,7 +64,7 @@ Message* create_msg(int type, int len, char* buffer){
 	// loop used & strcpy not because we can't guarantee presence of a '\0'
 	// +1 to include an expected '\0'
 	if(len > MSG_LEN){
-        perror("Error: Max Message Length exceeded");
+		printf("Error: Max Message Length exceeded");
         // exit(1);
 	}
 	for (int i = 0; i < len+1; ++i){
@@ -81,15 +81,30 @@ Message* deserialize_msg(char* buffer){
 }
 
 
-int send_msg_udp(int socket,struct sockaddr *dest, socklen_t dlen, Message *msg)
+int send_msg_udp(char* msgTitle,int socket,struct sockaddr *dest, socklen_t dlen, Message *msg)
 {
+	printf("Sending Type-%d UDP msg : %s (%s)\n",msg->type+1,msg->message,msgTitle);
 	char buffer[sizeof(Message)+1], *ptr;
 	ptr = serialize_msg(buffer, msg);
 	return sendto(socket, buffer, ptr - buffer, 0, dest, dlen) == ptr - buffer;
 }
-int send_msg_tcp(int socket,Message *msg)
+int send_msg_tcp(char* msgTitle,int socket,Message *msg)
 {
+	printf("Sending Type-%d TCP msg : %s (%s)\n",msg->type+1,msg->message,msgTitle);
 	char buffer[sizeof(Message)+1], *ptr;
 	ptr = serialize_msg(buffer, msg);
 	return send(socket, buffer, ptr - buffer, 0) == ptr - buffer;
+}
+
+Message* decodeCheckNPrint( char* msgTitle,int MSG_TYPE, char* buf){
+	Message* m = deserialize_msg(buf);
+	if(m->type!=MSG_TYPE){
+		printf("Note: Unexpected message type, expected Type-1, got Type-%d",m->type+1);
+	}
+	if(m->len != strlen(m->message)){
+		printf("Note: Length mismatch occurred for ");
+		perror(msgTitle);
+	}
+	printf("Received Type-%d message: %s (%s)\n",m->type+1,m->message,msgTitle);
+	return m;
 }

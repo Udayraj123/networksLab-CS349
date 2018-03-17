@@ -33,48 +33,58 @@ the process waits to "accept" client connections.
 	*/
 
 int udp_communicate(int sent_port_no){
-	int socUDP ;
+	int soc_udp ;
 	struct sockaddr_in	thisAddr, thatAddr;
 	int dataBytes, thatAddrLen ;
-	char buff[MAX_BUF_UDP] ;
 
-	if((socUDP = socket(PF_INET, SOCK_DGRAM, 0)) == -1) {
+	if((soc_udp = socket(PF_INET, SOCK_DGRAM, 0)) == -1) {
 		perror("cannot create socket") ;
 		return 0 ;
-	}   
+	} else{
+		dprintf("Created UDP socket %d (child)\n", soc_udp);
+	}
 
 	thisAddr.sin_family = PF_INET ;
     thisAddr.sin_addr.s_addr = INADDR_ANY ; // inet_addr("127.0.0.1") ; 
                                         	  // Converts to 32-bit number
     thisAddr.sin_port = htons(sent_port_no) ;  // UDP_PORT number - byte order
 
-    if((bind(socUDP, (struct sockaddr *)&thisAddr, sizeof(thisAddr))) < 0) {
+    if((bind(soc_udp, (struct sockaddr *)&thisAddr, sizeof(thisAddr))) < 0) {
     	perror("cannot bind") ;
     	return 0 ;
     }
 
+    char buff[MAX_BUF_UDP] ;
 
     thatAddrLen = sizeof(thatAddr) ;
     // server "listens" herre
-    if((dataBytes=recvfrom(socUDP, buff, MAX_BUF_UDP-1, 0, 	(struct sockaddr *)&thatAddr, &thatAddrLen)) < 0) {
+    if((dataBytes=recvfrom(soc_udp, buff, MAX_BUF_UDP-1, 0, 	(struct sockaddr *)&thatAddr, &thatAddrLen)) < 0) {
     	perror("cannot receive") ;
     	return 0 ;
     }
 
     buff[dataBytes] = '\0' ;
     // Decode the message obtained
-    printf("Data received from Client: '%s'\n", buff) ;
-    // send a type 4 message and close the connection.
-    printf("send a type 4 message and close the connection.\n");
-    close(socUDP) ;
+    Message* Phase2Message1 = decodeCheckNPrint("Phase2Message1",MSG_TYPE_3,buff);
 
+    // send a type 4 message and close the connection.
+    char* msg="ACK message from server";
+    Message* Phase2Message2 = create_msg(MSG_TYPE_4,strlen(msg),msg);
+
+	//send this udp_no to client over TCP
+    if(send_msg_udp("Phase2Message2",soc_udp, (struct sockaddr *)&thatAddr, sizeof(thatAddr), Phase2Message2) != 1){
+    	perror("cannot send") ;
+    	exit(1);
+    }
+    close(soc_udp) ;
+    dprintf("Closed UDP connection %d (child)\n", soc_udp);
     return 0 ;
 }
 
 
 int main()
 {
-	int			sockfd, newsockfd ; /* Socket descriptors */
+	int			sock_tcp, child_sock_tcp ; /* Socket descriptors */
 	int			clilen;
 	struct sockaddr_in	cli_addr, serv_addr;
 	int i;
@@ -86,7 +96,7 @@ int main()
 	   is SOCK_STREAM. The third parameter is set to 0 for user
 	   applications.
 	*/
-	if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+	if ((sock_tcp = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
 		printf("Cannot create socket\n");
 		exit(0);
 	}
@@ -106,12 +116,13 @@ int main()
 	/* With the information provided in serv_addr, we associate the server
 	   with its port using the bind() system call. 
 	*/
-	if (bind(sockfd, (struct sockaddr *) &serv_addr,sizeof(serv_addr)) < 0) {
-		printf("Unable to bind local address\n");
+	if (bind(sock_tcp, (struct sockaddr *) &serv_addr,sizeof(serv_addr)) < 0) {
+		// https://stackoverflow.com/questions/5106674/error-address-already-in-use-while-binding-socket-with-address-but-the-port-num
+		printf("Unable to bind local address, Maybe kernel didn't clear the socket yet. Wait max 4 minutes!\n");
 		exit(0);
 	}
 
-	listen(sockfd, MAX_CLIENTS); /* (Doesn't wait) This specifies that up to 5 concurrent client
+	listen(sock_tcp, MAX_CLIENTS); /* (Doesn't wait) This specifies that up to 5 concurrent client
 			      requests will be queued up while the system is
 			      executing the "accept" system call below.
 			   */
@@ -134,15 +145,15 @@ int main()
 		   in a struct sockaddr which is passed as a parameter.
 		   The length of the structure is noted in clilen. Note
 		   that the new socket descriptor returned by the accept()
-		   system call is stored in "newsockfd".
+		   system call is stored in "child_sock_tcp".
 		*/
 		clilen = sizeof(cli_addr);
-		newsockfd = accept(sockfd, (struct sockaddr *) &cli_addr,
+		child_sock_tcp = accept(sock_tcp, (struct sockaddr *) &cli_addr,
 			&clilen) ;
 		// above is a blocking statement, hence the process busy waits until a connection request is received. 
 		// Then the accepted connection is processed in a new fork below.
 
-		if (newsockfd < 0) {
+		if (child_sock_tcp < 0) {
 			printf("Accept error\n");
 			exit(0);
 		}
@@ -151,12 +162,13 @@ int main()
 		   server now forks. The parent closes the new socket
 		   descriptor and loops back to accept the next connection.
 		*/
+		// ONLY CHILD GOES INTO THIS LOOP-
 		if (fork() == 0) {// memspace is duplicated immediately
 
 			/* This child process will now communicate with the
 			   client through the send() and recv() system calls.
 			*/
-			close(sockfd);	/* Close the old socket since all
+			close(sock_tcp);	/* Close the old socket since all
 					   communications will be through
 					   the new socket.
 					*/		  
@@ -168,34 +180,33 @@ int main()
 			memset(buf,'\0', MAX_BUF_TCP*sizeof(char));
 
 			// Start of communication: receive Type 1 msg from a client
-			recv(newsockfd, buf, MAX_BUF_TCP, 0);//receive the byte sequence into buffer
+			recv(child_sock_tcp, buf, MAX_BUF_TCP, 0);//receive the byte sequence into buffer
 			//Decode and check for Type == 1
-			Message* Phase1Message1 = deserialize_msg(buf);
-			printf("received Phase1Message1: %d, %d, %s\n", Phase1Message1->type,Phase1Message1->len,Phase1Message1->message);
-
-
+			Message* Phase1Message1 = decodeCheckNPrint("Phase1Message1",MSG_TYPE_1,buf);
+			
 			// Generate a UPD port for this client
 			int udp_no = UDP_PORT;
 			memset(buf,'\0', MAX_BUF_TCP*sizeof(char));
 			sprintf(buf,"%d",udp_no); // ref for this function: https://stackoverflow.com/questions/5050067/simple-int-to-char-conversion
-		    Message* Phase1Message2 = create_msg(MSG_TYPE_1,strlen(buf),buf);
+			Message* Phase1Message2 = create_msg(MSG_TYPE_2,strlen(buf),buf);
 
 			//send this udp_no to client over TCP
-		    if(send_msg_tcp(newsockfd, Phase1Message2) != 1){
-		        perror("cannot send") ;
+			if(send_msg_tcp("Phase1Message2",child_sock_tcp, Phase1Message2) != 1){
+				perror("cannot send") ;
 				exit(1);
 			}
-			printf("Sent UDP port to client: %d\n", udp_no);
-		    
-			close(newsockfd);
+			dprintf("Sent UDP port to client: %d\n", udp_no);
+
+			close(child_sock_tcp);
 
 			//Now exchange over udp here. (No need to fork for UDP as we've already closed the TCP connection)
-			// udp_communicate(udp_no);
+			udp_communicate(udp_no);
 
-			exit(0);
+			dprintf("Killing child process...");
+			exit(0);//kill the child
 		}
-
-		close(newsockfd);
+		//PARENT CONTINUES THIS LOOP
+		close(child_sock_tcp); // Now done by child as well!
 	}
 
 	/*

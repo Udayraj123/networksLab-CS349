@@ -3,6 +3,9 @@ https://stackoverflow.com/questions/10114277/accepting-both-tcp-and-udp-connecti
 https://www.quora.com/Computer-Networking-How-do-I-write-a-server-program-using-both-TCP-and-UDP-sockets-in-c
 	UDP comes into play when the server needs to send some information to ALL clients, as TCP does not support broadcast messages. 
 
+http://www.softlab.ntua.gr/facilities/documentation/unix/unix-socket-faq/unix-socket-faq-4.html#ss4.2
+	When you issue the close() system call, you are closing your interface to the socket, not the socket itself. It is up to the kernel to close the socket.
+
 htonl is used while sending to network
 ntohl when receiving
 
@@ -13,5 +16,7 @@ unsigned long long int strtoull(const char* str, char** endPtr, int base);
 Linux (Intel) is LittleEndian with encoding UTF8
 Linux (zSeries) is BigEndian with encoding UTF8
 	
+Port busy checking : 
+watch 'sudo netstat -ntp | grep "8001\|50000"'
 
 
