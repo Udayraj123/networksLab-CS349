@@ -6,19 +6,18 @@
 /* The following three files must be included for network programming */
 #include <sys/socket.h> 
 #include <netinet/in.h> // Internet family of protocols
-#include <arpa/inet.h>
+#include <arpa/inet.h> //for close
 //extra for UDP
-#include <unistd.h>
+#include <unistd.h> //for close
 
-#define SERVER_ADDR "127.0.0.1"
-//#define SERVER_ADDR "172.16.114.241"
-enum {MSG_TYPE_1,MSG_TYPE_2,MSG_TYPE_3,MSG_TYPE_4};
+enum {NA,MSG_TYPE_1,MSG_TYPE_2,MSG_TYPE_3,MSG_TYPE_4};
 #define MAX_CLIENTS 5
 #define MSG_LEN 100
 #define MAX_BUF_TCP 100
 #define MAX_BUF_UDP 1024
-#define TCP_PORT 8001
-#define UDP_PORT 8002
+
+//enabler for custom user input for message content (else default values used)
+#define USER_INPUT 0
 
 #define DEBUG_RUN_DEF 1
-#define dprintf(...) if(!DEBUG_RUN_DEF)printf(__VA_ARGS__);
+#define dprintf(...) if(DEBUG_RUN_DEF)printf(__VA_ARGS__);

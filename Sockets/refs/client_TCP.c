@@ -23,7 +23,7 @@ main()
 		printf("Unable to create socket\n");
 		exit(0);
 	}else{
-		printf("Socket successfully created with id : %d \n", sockfd);
+		printf("Socket successfully created with fd : %d \n", sockfd);
 	}
 
 	/* Recall that we specified INADDR_ANY when we specified the server

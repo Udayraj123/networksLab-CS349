@@ -1,3 +1,66 @@
+Port busy checking : 
+watch 'sudo netstat -ntp | grep "8001\|50000"'
+
+"Generating UDP ports"
+	https://www.lifewire.com/port-0-in-tcp-and-udp-818145
+		port 0 carries special significance in network programming, particularly Unix socket programming: for requesting system-allocated, dynamic ports.
+
+
+"Concurrent server"
+	3+ Approaches
+		fork		 <-- Simpler to code, but heavier on CPU, but since MAX_CLIENTS is small, this would work fine					
+		pthread	 	 <-- shared memory and address space
+		linux `select()` <-- like Interrupt handler, hence frees the CPU when no activity
+		pselect , poll , ppoll <-- similar alternatives to select
+	
+	https://stackoverflow.com/questions/33889868/socket-programming-multiple-connections-forking-or-fd-set
+		Choice is based on the nature of the IO operations you have to do
+		fork(): Child processes are created with a copy of the file descriptors open in the parent, which explains all the fd-closing business when the system call returns. 
+		select(): a 'read' call can block other connections(when request has no data) as the same thread of execution is going to handle multiple clients.
+	https://www.linuxquestions.org/questions/programming-9/fork-%27ed-or-multi-threaded-socket-i-o-315479/
+		using fork() in practice isn't the best idea as the connections might share some data (files, DB connections) which can be opened by only one process at a time. But this assignment doesn't involve any file/DB connections
+
+		using select() may pause the whole program for seconds at `accept`
+
+https://bytes.com/topic/c/answers/938319-sending-receiving-struct-over-tcp-socket-linux
+	You shouldn't send structures, you can never be sure that the structure padding use by the sending machine will be the same as the structure padding used by the receiving machine.
+	
+If using delimiters was allowed, you could simply use sprintf and sscanf
+If there wasn't any concern for little-endian systems(like Intel's), you can simply call
+	if((nbytes = write(sockfd, &Struct1, sizeof(Struct1)) != sizeof(Struct1))
+
+A Library could be used for serialization, but it'd not be learnful
+	https://github.com/msgpack/msgpack-c
+	https://github.com/protobuf-c/protobuf-c
+
+https://stackoverflow.com/questions/4405285/can-threads-share-the-same-client-socket
+	Everytime you `accept`, it shall extract the first connection on the queue of pending connections, create a new socket with the same socket properties and allocate a new file descriptor for that socket.
+
+Without serialization, a better alternative is gcc's own packer (minimal mem usage)- syntax is using the keywords __attribute__ and packed
+	https://gcc.gnu.org/onlinedocs/gcc-3.3/gcc/Type-Attributes.html
+		struct packet {
+		    uint8_t x;
+		    uint32_t y;
+		} __attribute__((packed)); // __packed__ also works
+		// Six attributes are currently defined for types: aligned, packed, transparent_union, unused, deprecated and may_alias.
+
+	https://stackoverflow.com/questions/8568432/is-gccs-attribute-packed-pragma-pack-unsafe
+		In C, the compiler will lay out members of a struct in the order in which they're declared, with possible padding bytes inserted between members, or after the last member, to ensure that each member is aligned properly.
+		gcc provides a language extension, __attribute__((packed)), which tells the compiler not to insert padding, allowing struct members to be misaligned. 
+		For example, if the system normally requires all int objects to have 4-byte alignment, __attribute__((packed)) can cause int struct members to be allocated at odd offsets. (numbers less than 256 will consume only 1 byte!)
+
+	https://stackoverflow.com/questions/8000851/passing-a-struct-over-tcp-sock-stream-socket-in-c
+		using this packing with fixed size ints and ntoh8 for byte ordering
+		struct packet {
+		    uint8_t x; // = hton8(5);
+		} __attribute__((packed));
+
+	    struct packet *recv_packet = (struct packet *)buffer;
+
+	    uint8_t x = ntoh8(recv_packet->x);
+
+
+
 https://stackoverflow.com/questions/10114277/accepting-both-tcp-and-udp-connections:
 	Note: UDP does not have connections, so you don't have a 'listener' socket. For TCP, you open a listener socket, on which connections can be accepted. You can use select() to watch the 'listen' socket.
 https://www.quora.com/Computer-Networking-How-do-I-write-a-server-program-using-both-TCP-and-UDP-sockets-in-c
@@ -16,7 +79,5 @@ unsigned long long int strtoull(const char* str, char** endPtr, int base);
 Linux (Intel) is LittleEndian with encoding UTF8
 Linux (zSeries) is BigEndian with encoding UTF8
 	
-Port busy checking : 
-watch 'sudo netstat -ntp | grep "8001\|50000"'
 
 

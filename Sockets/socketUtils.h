@@ -81,30 +81,33 @@ Message* deserialize_msg(char* buffer){
 }
 
 
-int send_msg_udp(char* msgTitle,int socket,struct sockaddr *dest, socklen_t dlen, Message *msg)
+int send_msg_udp(char* msgTitle,int socket,struct sockaddr *cliaddr, socklen_t dlen, Message *msg)
 {
-	printf("Sending Type-%d UDP msg : %s (%s)\n",msg->type+1,msg->message,msgTitle);
+	// getpid(), inet_ntoa(cliaddr.sin_addr)
+	printf("Sending Type-%d UDP msg : |%d|%d|'%s'| (stage: %s)\n",msg->type,msg->type,msg->len,msg->message,msgTitle);
 	char buffer[sizeof(Message)+1], *ptr;
 	ptr = serialize_msg(buffer, msg);
-	return sendto(socket, buffer, ptr - buffer, 0, dest, dlen) == ptr - buffer;
+	return sendto(socket, buffer, ptr - buffer, 0, cliaddr, dlen) == ptr - buffer;
 }
-int send_msg_tcp(char* msgTitle,int socket,Message *msg)
+int send_msg_tcp(char* msgTitle,int socket,Message *m)
 {
-	printf("Sending Type-%d TCP msg : %s (%s)\n",msg->type+1,msg->message,msgTitle);
+	printf(" Sending Type-%d TCP msg : |%d|%d|'%s'| (stage: %s)\n",m->type,m->type,m->len,m->message,msgTitle);
 	char buffer[sizeof(Message)+1], *ptr;
-	ptr = serialize_msg(buffer, msg);
+	ptr = serialize_msg(buffer, m);
 	return send(socket, buffer, ptr - buffer, 0) == ptr - buffer;
 }
 
 Message* decodeCheckNPrint( char* msgTitle,int MSG_TYPE, char* buf){
 	Message* m = deserialize_msg(buf);
 	if(m->type!=MSG_TYPE){
-		printf("Note: Unexpected message type, expected Type-1, got Type-%d",m->type+1);
+		printf("Note: Unexpected message type, expected Type-%d, got Type-%d\n",MSG_TYPE,m->type);
 	}
 	if(m->len != strlen(m->message)){
 		printf("Note: Length mismatch occurred for ");
 		perror(msgTitle);
 	}
-	printf("Received Type-%d message: %s (%s)\n",m->type+1,m->message,msgTitle);
+	//printf("Received Type-%d message: %s (%s)\n",m->type,m->message,msgTitle);
+	printf("Received Type-%d Message: |%d|%d|'%s'| (stage: %s)\n",m->type,m->type,m->len,m->message,msgTitle);
+
 	return m;
 }
