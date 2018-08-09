@@ -98,7 +98,7 @@ int main (int argc, char **argv)
 	int serv_port;
 	if (argc !=2)
 	{
-		perror("Usage: <Server TCP Port>\n");
+		printf("Usage: <Server TCP Port>\n");
 		exit(1);
 	}
 	else{

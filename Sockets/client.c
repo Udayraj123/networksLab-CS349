@@ -46,6 +46,10 @@ int udp_communicate(int received_port_number){
     	perror("cannot receive") ;
     	return 0 ;
     }
+    char * server_ip = inet_ntoa(serv_addr.sin_addr);
+	int server_port = ntohs(serv_addr.sin_port);
+	dprintf("Receieved UDP packet from %s  Client Port: %d\n",server_ip,server_port); 
+		
 	Message* Phase2Message2 = decodeCheckNPrint("Phase2Message2",MSG_TYPE_4,buff);
 
     dprintf("Terminating UDP connection %d to server %s port %d \n",sock_udp, inet_ntoa(serv_addr.sin_addr), ntohs(serv_addr.sin_port));
@@ -58,7 +62,7 @@ int main (int argc, char **argv)
 	int serv_port;
 	if (argc !=3)
     {
-        perror("Usage: <Server Address> <Server TCP Port>\n");
+        printf("Usage: <Server Address> <Server TCP Port>\n");
         exit(1);
     }
     else{
@@ -110,7 +114,9 @@ int main (int argc, char **argv)
 		printf("Unable to connect to server\n");
 		exit(0);
 	}
-
+	char * server_ip = inet_ntoa(serv_addr.sin_addr);
+		int server_port = ntohs(serv_addr.sin_port);
+	printf("Connection established with %s at port %d\n",server_ip,server_port );
 	/* After connection, the client can send or receive messages.
 	   However, please note that recv() will block when the
 	   server is not sending and vice versa. Similarly send() will
